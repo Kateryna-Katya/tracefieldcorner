@@ -14,3 +14,11 @@ h2{
     color: #0a6aae;
     margin-bottom: 48px;
 }
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 48px;
+  }
+}
