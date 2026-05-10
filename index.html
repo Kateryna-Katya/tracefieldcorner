@@ -14,10 +14,55 @@
       rel="stylesheet">
     <title>Sudoku Corner</title>
     <script type="module" crossorigin src="/tracefieldcorner/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/tracefieldcorner/assets/styles-DUP6a0wT.css">
+    <link rel="stylesheet" crossorigin href="/tracefieldcorner/assets/index-D6ImP890.css">
   </head>
   <body>
-    
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-logo" href="./#home">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAABTpJREFUeAHtmW1sFEUYx/+zu9drKYVSKrTeUS4KUhHwsLWSGAio+AJIi9QUTYA2sRfiB8EEE99iz5iACUFKSDS0Ji3EIK0vtBpNCiQoQawISRUspBC4gscViu2Vvl3vZceZvfZyvV7NtG65fugvuezO7Mzu/5559plnZgmiYNlWkezrTsyjBLmsaCWsCvcACjSwg4NAqnGW5R+I1oZEVqTbqvJkKlVQQpMRWxyAZI8ULoUXzMXVpRLIERGxKUnxWPZIGgIUI2JZ5kykJieINLUAaqX5tSp7eGVIsNlWZWcusBWC2J6Zi0NvLMW8tMmiXSDLBAe3LsW+zdlQBf8olUiJyVa1B+GCTcXVhRSkJLLxg/dPhX3DYuwpzMHqrFmDrGkgQW8yyBJEIayPIhEYFBkjg2xLtx3KCwlmnjxErNWSgmPvPY3lmTNgnp6A/bYleCtvAUboAbohUaUiubAiWeHWRUQU4MP10SuL0XynB6t3HkeXJ4A318xHRmoiJGYlSmMgmyA5MS4pVyESciOfnxAnwzp7Gg6fduDtvIWYm5aEM1fbsPPbP2Mjth+KQJ5EKbFEXpg0KU7ztzWPmVk0MMLV3ovXVz6EXRuzNAvHDmJVmG5rZDVVVe3YePMutpTXQ2EiOz0+bF4+B/dNjcctdy9iAZ/Aor7i7i4vOrr7MCVeDvosqzPEGbRjLF2Co0StZaI+/OY8PtmUjdrtK9Da1YdVi004ePIqWtwe9icQM5ThLhz+5Ro83gBefiIDSQkKSn+8iL0//BVTsZxhBXNf+e7369pvPBESnD49Ec8uTBfuOD8jmG6sfXwWcjr6hPrI/cNjSklA0Yo5Qn34G3PkTDM6e3xamZhs1dpbtLsoBwVLZmM8UvjZaRxvcGrnIcEpU4zInp2ixV8RNjxpwUqrCa4dH8PvdAr1IZIM875SXLjejt3fN0IkC+nx+XH28h30+oOhNuQSbXf7cPS8C6LkzEkN3vDsOXibLgv1IYpBO3Z5/Kj74+aoXmDxVGucMCF4rJkQPNZMCB5rJgSPNaGZTmU5sDqC3FwdWD8HAqA+r1AfQmh/X8DPnieJPI/NhkpYuhDKJbY8Nw/b2cpYFL4fIbOf2ieWqQ0gGY1QmWW8/oBQe4/Xj+Ly3/DrpdtaOWThDja/3/inN8puW3RmsmRpClusOrv88PhUiDI3zYjuPj9aOjxC7fmSzNnWEyqHLMzxa2difmFfv4iNSiaestexxWqHUB8j2/Fp/nQ96ptasXbXCcHkh+0WhbUbtOIIXhAzMelvJ4f5GE9N5SjdfcwFiHY9/FlkVNmaAh15N/9RrMsyDarji2xuTVfYsP4fdBX88wUXWsKEbVz6ANKnxaO91we90FXwqYu3tB8nY0YSPshfhK/rm+HRUTAPhQ6MAVuez9T8di/bHtALFjEaJOb4DdCZ1KmTsImt+T7/6QqaW7ugGwQOiaqohY7woPj+Swu0gL//aBNGEQiGhd2rRjL4DDWEEjd0wsK2Zl/MNuOLU9fQ0q5PZOBQUIezrOCA5Khc5yZELYIO8BC29YWHESfL2jJeZ+va+VHL1m6UFdSwqtKR3ID2z4jh8yL7qIOqk1ewascxtlPj/Y++I4Oq1M6ty89DX0c6z31Vl5SVz2ew5SI36eShis1WtWzvzdf/tYZb1Mk2v28PkycE2BBMNio40diCS3+LTecsKyx1lRe8M1AeMmqm4i8LKZFKmHALYgmFWyX+IlfZqzXh1cO6GRdOiJxLgx9srLgH8BeLfdhs8IPWeLw9te7KoiHB4F8alss5+QGTCgAAAABJRU5ErkJggg==" alt="logo" loading="lazy" />
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M34 30L10 30" stroke="#333333" stroke-width="2" stroke-linecap="round" />
+    <path d="M34 22L10 22" stroke="#333333" stroke-width="2" stroke-linecap="round" />
+    <path d="M34 14L10 14" stroke="#333333" stroke-width="2" stroke-linecap="round" />
+</svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#how">How It Works</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#features">Features</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#faq">FAQ</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">Home</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#how">How It Works</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#features">Features</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#faq">FAQ</a>
+        </li>
+    </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
