@@ -38,7 +38,9 @@ font-weight: 500;
     padding-left: 30px;
 
 }
-
+.policy-number{
+   padding-left: 20px;
+}
 .underline {
     text-decoration: underline;
     text-decoration-skip-ink: none;
